@@ -68,4 +68,19 @@ public class FileUtils {
             LogsUtil.info(e.getMessage());
         }
     }
+
+    //Creating a directory if it does not already exist.
+    public static void createDirectory(File path) {
+        // Check if the directory already exists
+        if (!path.exists()) {
+            try {
+                Files.createDirectories(path.toPath());
+                LogsUtil.info("Directory created: " + path);
+            } catch (IOException e) {
+                LogsUtil.error("Failed to create directory: " + e.getMessage());
+            }
+        } else {
+            LogsUtil.info("Directory already exists: " + path);
+        }
+    }
 }

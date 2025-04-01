@@ -17,6 +17,9 @@ public class TestNGListeners implements IExecutionListener, ITestListener , IInv
         FileUtils.deleteFiles(allureResults);
         FileUtils.cleanDirectory(screenshots);
         FileUtils.cleanDirectory(logs);
+        FileUtils.createDirectory(logs);
+        FileUtils.createDirectory(screenshots);
+        FileUtils.createDirectory(allureResults);
         PropertiesUtils.loadProperties();
     }
 
