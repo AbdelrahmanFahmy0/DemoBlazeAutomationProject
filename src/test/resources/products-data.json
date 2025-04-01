@@ -1,0 +1,15 @@
+{
+  "products": {
+    "product1": {
+      "name": "Samsung galaxy s6",
+      "price": "360"
+    },
+    "product2": {
+      "name": "Iphone 6 32gb",
+      "price": "790"
+    }
+  },
+  "messages": {
+    "addingToCartMessage": "Product added."
+  }
+}

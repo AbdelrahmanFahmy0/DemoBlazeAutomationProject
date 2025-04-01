@@ -1,0 +1,18 @@
+{
+  "user": {
+    "username": "johnDote78892920",
+    "password": "Pass123@#$",
+    "encodedPassword": "UGFzczEyM0AjJA=="
+  },
+  "inValidaData": {
+    "username": "Johnn121",
+    "password": "securePass123"
+  },
+  "messages": {
+    "successRegisterMessage": "Sign up successful.",
+    "existedUsernameMessage": "This user already exist.",
+    "emptyFieldMessage": "Please fill out Username and Password.",
+    "nonExistedUserMessage": "User does not exist.",
+    "wrongPasswordMessage": "Wrong password."
+  }
+}

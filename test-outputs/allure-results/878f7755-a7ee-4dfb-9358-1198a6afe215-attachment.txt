@@ -1,0 +1,187 @@
+[DEBUG] - [01-04-2025 19:56:22] [main] [org.testng.TestNG] - suiteXmlPath: "F:\Projects\DemoBlazeProject\Test Runner\E2ESuite.xml"
+[INFO] - [01-04-2025 19:56:23] [main] [Listeners.TestNGListeners] - Test execution started
+[INFO] - [01-04-2025 19:56:24] [main] [Utils.PropertiesUtils] - Loading Properties File Data
+[INFO] - [01-04-2025 19:56:24] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  F:\Projects\DemoBlazeProject\Test Runner\E2ESuite.xml
+
+[INFO] - [01-04-2025 19:56:27] [main] [Drivers.DriverManager] - Driver created on: chrome
+[INFO] - [01-04-2025 19:56:29] [main] [Utils.Waits] - Waiting for element to be clickable: By.id: signin2
+[INFO] - [01-04-2025 19:56:29] [main] [Utils.Waits] - Waiting for element to be visible: By.id: signin2
+[INFO] - [01-04-2025 19:56:29] [main] [Utils.Waits] - Waiting for element to be present: By.id: signin2
+[INFO] - [01-04-2025 19:56:29] [main] [Utils.Scrolling] - Scrolling to element: By.id: signin2
+[INFO] - [01-04-2025 19:56:29] [main] [Utils.ElementActions] - Clicked on the element: By.id: signin2
+[INFO] - [01-04-2025 19:56:29] [main] [Pages.HomePage] - Navigation to the registration page
+[INFO] - [01-04-2025 19:56:29] [main] [Utils.Waits] - Waiting for element to be visible: By.id: sign-username
+[INFO] - [01-04-2025 19:56:29] [main] [Utils.Waits] - Waiting for element to be present: By.id: sign-username
+[INFO] - [01-04-2025 19:56:30] [main] [Utils.Waits] - Waiting for element to be present: By.id: sign-username
+[INFO] - [01-04-2025 19:56:30] [main] [Utils.Scrolling] - Scrolling to element: By.id: sign-username
+[INFO] - [01-04-2025 19:56:30] [main] [Utils.ElementActions] - Data entered: abdelrahman-2025-04-01-19-56-23 in the field: By.id: sign-username
+[DEBUG] - [01-04-2025 19:56:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['user']['password']
+[INFO] - [01-04-2025 19:56:30] [main] [Utils.Waits] - Waiting for element to be visible: By.id: sign-password
+[INFO] - [01-04-2025 19:56:30] [main] [Utils.Waits] - Waiting for element to be present: By.id: sign-password
+[INFO] - [01-04-2025 19:56:30] [main] [Utils.Scrolling] - Scrolling to element: By.id: sign-password
+[INFO] - [01-04-2025 19:56:31] [main] [Utils.ElementActions] - Data entered: Pass123@#$ in the field: By.id: sign-password
+[INFO] - [01-04-2025 19:56:31] [main] [Utils.Waits] - Waiting for element to be clickable: By.cssSelector: button[onclick="register()"]
+[INFO] - [01-04-2025 19:56:31] [main] [Utils.Waits] - Waiting for element to be visible: By.cssSelector: button[onclick="register()"]
+[INFO] - [01-04-2025 19:56:31] [main] [Utils.Waits] - Waiting for element to be present: By.cssSelector: button[onclick="register()"]
+[INFO] - [01-04-2025 19:56:31] [main] [Utils.Scrolling] - Scrolling to element: By.cssSelector: button[onclick="register()"]
+[INFO] - [01-04-2025 19:56:31] [main] [Utils.ElementActions] - Clicked on the element: By.cssSelector: button[onclick="register()"]
+[DEBUG] - [01-04-2025 19:56:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['successRegisterMessage']
+[INFO] - [01-04-2025 19:56:31] [main] [Utils.Waits] - Waiting for alert to be visible
+[INFO] - [01-04-2025 19:56:31] [main] [Utils.BrowserActions] - Getting the alert text: Sign up successful.
+[INFO] - [01-04-2025 19:56:32] [main] [Utils.Waits] - Waiting for alert to be visible
+[INFO] - [01-04-2025 19:56:32] [main] [Utils.BrowserActions] - Accepting the alert
+[INFO] - [01-04-2025 19:56:32] [main] [Utils.AllureUtils] - Logs attached to allure report
+[INFO] - [01-04-2025 19:56:32] [main] [Listeners.TestNGListeners] - Test case createAccountTC passed
+[INFO] - [01-04-2025 19:56:32] [main] [Utils.Waits] - Waiting for element to be clickable: By.id: login2
+[INFO] - [01-04-2025 19:56:32] [main] [Utils.Waits] - Waiting for element to be visible: By.id: login2
+[INFO] - [01-04-2025 19:56:32] [main] [Utils.Waits] - Waiting for element to be present: By.id: login2
+[INFO] - [01-04-2025 19:56:32] [main] [Utils.Scrolling] - Scrolling to element: By.id: login2
+[INFO] - [01-04-2025 19:56:32] [main] [Utils.ElementActions] - Clicked on the element: By.id: login2
+[INFO] - [01-04-2025 19:56:32] [main] [Pages.HomePage] - Navigation to the login page
+[INFO] - [01-04-2025 19:56:32] [main] [Utils.Waits] - Waiting for element to be visible: By.id: loginusername
+[INFO] - [01-04-2025 19:56:32] [main] [Utils.Waits] - Waiting for element to be present: By.id: loginusername
+[INFO] - [01-04-2025 19:56:33] [main] [Utils.Waits] - Waiting for element to be present: By.id: loginusername
+[INFO] - [01-04-2025 19:56:33] [main] [Utils.Scrolling] - Scrolling to element: By.id: loginusername
+[INFO] - [01-04-2025 19:56:33] [main] [Utils.ElementActions] - Data entered: abdelrahman-2025-04-01-19-56-23 in the field: By.id: loginusername
+[DEBUG] - [01-04-2025 19:56:33] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['user']['password']
+[INFO] - [01-04-2025 19:56:33] [main] [Utils.Waits] - Waiting for element to be visible: By.id: loginpassword
+[INFO] - [01-04-2025 19:56:33] [main] [Utils.Waits] - Waiting for element to be present: By.id: loginpassword
+[INFO] - [01-04-2025 19:56:33] [main] [Utils.Scrolling] - Scrolling to element: By.id: loginpassword
+[INFO] - [01-04-2025 19:56:33] [main] [Utils.ElementActions] - Data entered: Pass123@#$ in the field: By.id: loginpassword
+[INFO] - [01-04-2025 19:56:33] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //button[@onclick="logIn()"]
+[INFO] - [01-04-2025 19:56:33] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //button[@onclick="logIn()"]
+[INFO] - [01-04-2025 19:56:33] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //button[@onclick="logIn()"]
+[INFO] - [01-04-2025 19:56:33] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //button[@onclick="logIn()"]
+[INFO] - [01-04-2025 19:56:34] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //button[@onclick="logIn()"]
+[INFO] - [01-04-2025 19:56:34] [main] [Utils.Waits] - Waiting for the element By.id: nameofuser to has attribute style equals display: block;
+[INFO] - [01-04-2025 19:56:36] [main] [Utils.Waits] - Waiting for element to be visible: By.id: nameofuser
+[INFO] - [01-04-2025 19:56:36] [main] [Utils.Waits] - Waiting for element to be present: By.id: nameofuser
+[INFO] - [01-04-2025 19:56:36] [main] [Utils.Scrolling] - Scrolling to element: By.id: nameofuser
+[INFO] - [01-04-2025 19:56:36] [main] [Utils.ElementActions] - Getting text from the element: By.id: nameofuser Text is Welcome abdelrahman-2025-04-01-19-56-23
+[INFO] - [01-04-2025 19:56:36] [main] [Utils.AllureUtils] - Logs attached to allure report
+[INFO] - [01-04-2025 19:56:36] [main] [Listeners.TestNGListeners] - Test case userLoginTC passed
+[DEBUG] - [01-04-2025 19:56:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['products']['product1']['name']
+[INFO] - [01-04-2025 19:56:36] [main] [Utils.Waits] - Waiting for the element By.id: nameofuser to has attribute style equals display: block;
+[INFO] - [01-04-2025 19:56:36] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //h4[@class="card-title"]//a[ text() = 'Samsung galaxy s6']
+[INFO] - [01-04-2025 19:56:36] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //h4[@class="card-title"]//a[ text() = 'Samsung galaxy s6']
+[INFO] - [01-04-2025 19:56:36] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //h4[@class="card-title"]//a[ text() = 'Samsung galaxy s6']
+[INFO] - [01-04-2025 19:56:36] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //h4[@class="card-title"]//a[ text() = 'Samsung galaxy s6']
+[INFO] - [01-04-2025 19:56:37] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //h4[@class="card-title"]//a[ text() = 'Samsung galaxy s6']
+[INFO] - [01-04-2025 19:56:37] [main] [Pages.HomePage] - Viewing the page of product Samsung galaxy s6
+[DEBUG] - [01-04-2025 19:56:38] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['products']['product1']['name']
+[DEBUG] - [01-04-2025 19:56:38] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['products']['product1']['price']
+[INFO] - [01-04-2025 19:56:38] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //h2[@class="name"]
+[INFO] - [01-04-2025 19:56:38] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //h2[@class="name"]
+[INFO] - [01-04-2025 19:56:38] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //h2[@class="name"]
+[INFO] - [01-04-2025 19:56:38] [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //h2[@class="name"] Text is Samsung galaxy s6
+[INFO] - [01-04-2025 19:56:38] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //h3[@class='price-container']
+[INFO] - [01-04-2025 19:56:38] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //h3[@class='price-container']
+[INFO] - [01-04-2025 19:56:38] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //h3[@class='price-container']
+[INFO] - [01-04-2025 19:56:38] [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //h3[@class='price-container'] Text is $360 *includes tax
+[INFO] - [01-04-2025 19:56:38] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //a[ text() = 'Add to cart']
+[INFO] - [01-04-2025 19:56:38] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //a[ text() = 'Add to cart']
+[INFO] - [01-04-2025 19:56:38] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //a[ text() = 'Add to cart']
+[INFO] - [01-04-2025 19:56:38] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //a[ text() = 'Add to cart']
+[INFO] - [01-04-2025 19:56:39] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //a[ text() = 'Add to cart']
+[INFO] - [01-04-2025 19:56:39] [main] [Pages.ProductPage] - The By.xpath: //h2[@class="name"] product has been added to cart
+[DEBUG] - [01-04-2025 19:56:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['addingToCartMessage']
+[INFO] - [01-04-2025 19:56:39] [main] [Utils.Waits] - Waiting for alert to be visible
+[INFO] - [01-04-2025 19:56:40] [main] [Utils.BrowserActions] - Getting the alert text: Product added.
+[INFO] - [01-04-2025 19:56:40] [main] [Utils.Waits] - Waiting for alert to be visible
+[INFO] - [01-04-2025 19:56:40] [main] [Utils.BrowserActions] - Accepting the alert
+[INFO] - [01-04-2025 19:56:40] [main] [Utils.AllureUtils] - Logs attached to allure report
+[INFO] - [01-04-2025 19:56:40] [main] [Listeners.TestNGListeners] - Test case addProductToCartTC passed
+[INFO] - [01-04-2025 19:56:40] [main] [Utils.Waits] - Waiting for element to be clickable: By.id: cartur
+[INFO] - [01-04-2025 19:56:40] [main] [Utils.Waits] - Waiting for element to be visible: By.id: cartur
+[INFO] - [01-04-2025 19:56:40] [main] [Utils.Waits] - Waiting for element to be present: By.id: cartur
+[INFO] - [01-04-2025 19:56:40] [main] [Utils.Scrolling] - Scrolling to element: By.id: cartur
+[INFO] - [01-04-2025 19:56:42] [main] [Utils.ElementActions] - Clicked on the element: By.id: cartur
+[INFO] - [01-04-2025 19:56:42] [main] [Pages.ProductPage] - Navigation to the cart page
+[DEBUG] - [01-04-2025 19:56:42] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['products']['product1']['name']
+[DEBUG] - [01-04-2025 19:56:42] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['products']['product1']['price']
+[INFO] - [01-04-2025 19:56:42] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //td[2]
+[INFO] - [01-04-2025 19:56:42] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //td[2]
+[INFO] - [01-04-2025 19:56:43] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //td[2]
+[INFO] - [01-04-2025 19:56:43] [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //td[2] Text is Samsung galaxy s6
+[INFO] - [01-04-2025 19:56:43] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //td[3]
+[INFO] - [01-04-2025 19:56:43] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //td[3]
+[INFO] - [01-04-2025 19:56:43] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //td[3]
+[INFO] - [01-04-2025 19:56:43] [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //td[3] Text is 360
+[INFO] - [01-04-2025 19:56:43] [main] [Utils.Waits] - Waiting for element to be visible: By.id: totalp
+[INFO] - [01-04-2025 19:56:43] [main] [Utils.Waits] - Waiting for element to be present: By.id: totalp
+[INFO] - [01-04-2025 19:56:43] [main] [Utils.Scrolling] - Scrolling to element: By.id: totalp
+[INFO] - [01-04-2025 19:56:43] [main] [Utils.ElementActions] - Getting text from the element: By.id: totalp Text is 360
+[INFO] - [01-04-2025 19:56:43] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: (//tr[@class="success"]//td[3])[1]
+[INFO] - [01-04-2025 19:56:43] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: (//tr[@class="success"]//td[3])[1]
+[INFO] - [01-04-2025 19:56:43] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: (//tr[@class="success"]//td[3])[1]
+[INFO] - [01-04-2025 19:56:43] [main] [Utils.ElementActions] - Getting text from the element: By.xpath: (//tr[@class="success"]//td[3])[1] Text is 360
+[INFO] - [01-04-2025 19:56:43] [main] [Pages.CartPage] - Total price 360.0
+[INFO] - [01-04-2025 19:56:43] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //button[@data-target='#orderModal']
+[INFO] - [01-04-2025 19:56:43] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //button[@data-target='#orderModal']
+[INFO] - [01-04-2025 19:56:43] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //button[@data-target='#orderModal']
+[INFO] - [01-04-2025 19:56:43] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //button[@data-target='#orderModal']
+[INFO] - [01-04-2025 19:56:44] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //button[@data-target='#orderModal']
+[DEBUG] - [01-04-2025 19:56:44] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['billingInfo']['name']
+[INFO] - [01-04-2025 19:56:44] [main] [Utils.Waits] - Waiting for element to be visible: By.id: name
+[INFO] - [01-04-2025 19:56:44] [main] [Utils.Waits] - Waiting for element to be present: By.id: name
+[INFO] - [01-04-2025 19:56:44] [main] [Utils.Waits] - Waiting for element to be present: By.id: name
+[INFO] - [01-04-2025 19:56:44] [main] [Utils.Scrolling] - Scrolling to element: By.id: name
+[INFO] - [01-04-2025 19:56:44] [main] [Utils.ElementActions] - Data entered: Abdelrahman Fahmy in the field: By.id: name
+[DEBUG] - [01-04-2025 19:56:44] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['billingInfo']['country']
+[INFO] - [01-04-2025 19:56:44] [main] [Utils.Waits] - Waiting for element to be visible: By.id: country
+[INFO] - [01-04-2025 19:56:44] [main] [Utils.Waits] - Waiting for element to be present: By.id: country
+[INFO] - [01-04-2025 19:56:44] [main] [Utils.Scrolling] - Scrolling to element: By.id: country
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.ElementActions] - Data entered: Egypt in the field: By.id: country
+[DEBUG] - [01-04-2025 19:56:45] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['billingInfo']['city']
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Waits] - Waiting for element to be visible: By.id: city
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Waits] - Waiting for element to be present: By.id: city
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Scrolling] - Scrolling to element: By.id: city
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.ElementActions] - Data entered: Mansoura in the field: By.id: city
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Waits] - Waiting for element to be visible: By.id: card
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Waits] - Waiting for element to be present: By.id: card
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Scrolling] - Scrolling to element: By.id: card
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.ElementActions] - Data entered: 6007-2279-3885-3370 in the field: By.id: card
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Waits] - Waiting for element to be visible: By.id: month
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Waits] - Waiting for element to be present: By.id: month
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Scrolling] - Scrolling to element: By.id: month
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.ElementActions] - Data entered: 9 in the field: By.id: month
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Waits] - Waiting for element to be visible: By.id: year
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Waits] - Waiting for element to be present: By.id: year
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Scrolling] - Scrolling to element: By.id: year
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.ElementActions] - Data entered: 2026 in the field: By.id: year
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //button[@onclick='purchaseOrder()']
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //button[@onclick='purchaseOrder()']
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //button[@onclick='purchaseOrder()']
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //button[@onclick='purchaseOrder()']
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //button[@onclick='purchaseOrder()']
+[DEBUG] - [01-04-2025 19:56:45] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['successCheckoutMessage']
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //div[contains(@class,'sweet-alert')]/h2
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //div[contains(@class,'sweet-alert')]/h2
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //div[contains(@class,'sweet-alert')]/h2
+[INFO] - [01-04-2025 19:56:45] [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //div[contains(@class,'sweet-alert')]/h2 Text is Thank you for your purchase!
+[DEBUG] - [01-04-2025 19:56:46] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['billingInfo']['name']
+[INFO] - [01-04-2025 19:56:46] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //div[contains(@class,'sweet-alert')]/p
+[INFO] - [01-04-2025 19:56:46] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //div[contains(@class,'sweet-alert')]/p
+[INFO] - [01-04-2025 19:56:46] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //div[contains(@class,'sweet-alert')]/p
+[INFO] - [01-04-2025 19:56:46] [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //div[contains(@class,'sweet-alert')]/p Text is Id: 8301088
+Amount: 360 USD
+Card Number: 6007-2279-3885-3370
+Name: Abdelrahman Fahmy
+Date: 1/3/2025
+[INFO] - [01-04-2025 19:56:46] [main] [Pages.CheckoutPage] - The name on success message is: Abdelrahman Fahmy
+[INFO] - [01-04-2025 19:56:46] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //div[contains(@class,'sweet-alert')]/p
+[INFO] - [01-04-2025 19:56:46] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //div[contains(@class,'sweet-alert')]/p
+[INFO] - [01-04-2025 19:56:46] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //div[contains(@class,'sweet-alert')]/p
+[INFO] - [01-04-2025 19:56:46] [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //div[contains(@class,'sweet-alert')]/p Text is Id: 8301088
+Amount: 360 USD
+Card Number: 6007-2279-3885-3370
+Name: Abdelrahman Fahmy
+Date: 1/3/2025
+[INFO] - [01-04-2025 19:56:46] [main] [Pages.CheckoutPage] - The card number on success message is: 6007-2279-3885-3370
+[INFO] - [01-04-2025 19:56:46] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //div[contains(@class,'sweet-alert')]//button[@tabindex='1']
+[INFO] - [01-04-2025 19:56:46] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //div[contains(@class,'sweet-alert')]//button[@tabindex='1']
+[INFO] - [01-04-2025 19:56:46] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //div[contains(@class,'sweet-alert')]//button[@tabindex='1']
+[INFO] - [01-04-2025 19:56:46] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //div[contains(@class,'sweet-alert')]//button[@tabindex='1']
+[INFO] - [01-04-2025 19:56:47] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //div[contains(@class,'sweet-alert')]//button[@tabindex='1']
+[INFO] - [01-04-2025 19:56:47] [main] [Utils.BrowserActions] - Refreshing the page

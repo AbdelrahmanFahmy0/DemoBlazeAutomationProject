@@ -1,0 +1,11 @@
+{
+  "billingInfo": {
+    "name": "Abdelrahman Fahmy",
+    "country": "Egypt",
+    "city": "Mansoura"
+  },
+  "messages": {
+    "successCheckoutMessage": "Thank you for your purchase!",
+    "inCompleteInformationMessage": "Please fill out Name and Creditcard."
+  }
+}
