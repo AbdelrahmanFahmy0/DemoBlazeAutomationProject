@@ -20,7 +20,7 @@ This is a practical software test automation project that demonstrates a real-wo
 ## 🌐 Demo Website Used
 [Demo Blaze](https://www.demoblaze.com/)
 
-<img title="Demo Blaze" src="https://www.demoblaze.com/bm.png">
+<img title="Demo Blaze" src="https://demoblaze.com/favicon.ico">
 
 ## 🧩 Project Design:
 * Page Object Model (POM) design pattern.
