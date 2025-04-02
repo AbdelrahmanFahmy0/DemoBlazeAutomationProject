@@ -10,6 +10,8 @@ public class TestNGListeners implements IExecutionListener, ITestListener , IInv
     File allureResults = new File("test-outputs/allure-results");
     File screenshots = new File("test-outputs/Screenshots");
     File logs = new File("test-outputs/Logs");
+    File srcEnvironmentFile = new File("src/test/resources/environment.properties");
+    File desEnvironmentFile = new File("test-outputs/allure-results/environment.properties");
 
     @Override
     public void onExecutionStart() {
@@ -20,6 +22,7 @@ public class TestNGListeners implements IExecutionListener, ITestListener , IInv
         FileUtils.createDirectory(logs);
         FileUtils.createDirectory(screenshots);
         FileUtils.createDirectory(allureResults);
+        FileUtils.copyFile(srcEnvironmentFile, desEnvironmentFile);
         PropertiesUtils.loadProperties();
     }
 

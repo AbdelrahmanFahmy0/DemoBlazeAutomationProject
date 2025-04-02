@@ -83,4 +83,24 @@ public class FileUtils {
             LogsUtil.info("Directory already exists: " + path);
         }
     }
+
+    //Coping a file from the source location to the destination location.
+    public static void copyFile(File srcFile, File desFile) {
+        // Check if the source file exists
+        if (!srcFile.exists()) {
+            LogsUtil.warn("Source file does not exist: " + srcFile);
+            return;
+        }
+        // Check if the destination file exists
+        if (!desFile.exists()) {
+            try {
+                Files.copy(srcFile.toPath(), desFile.toPath());
+                LogsUtil.info("File copied from " + srcFile + " to " + desFile);
+            } catch (IOException e) {
+                LogsUtil.error("Failed to copy file: " + e.getMessage());
+            }
+        } else {
+            LogsUtil.info("File already exists: " + desFile);
+        }
+    }
 }
