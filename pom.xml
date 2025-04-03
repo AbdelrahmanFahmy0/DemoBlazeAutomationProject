@@ -19,9 +19,6 @@
                 <executions>
                     <execution>
                         <phase>test</phase>
-                        <goals>
-                            <goal>serve</goal>
-                        </goals>
                     </execution>
                 </executions>
                 <configuration>
