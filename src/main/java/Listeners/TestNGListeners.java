@@ -35,12 +35,7 @@ public class TestNGListeners implements IExecutionListener, ITestListener , IInv
     public void afterInvocation(IInvokedMethod method, ITestResult testResult) {
         if (method.isTestMethod()){
             //Assert all the soft assertions after running each test method.
-            try {
-                SoftAssertion.assertAll();
-            }catch (AssertionError error){
-                testResult.setStatus(ITestResult.FAILURE);
-                testResult.setThrowable(error);
-            }
+            SoftAssertion.assertAll(testResult);
             //Taking screenshot and adding it to allure report.
             switch (testResult.getStatus()){
                 case ITestResult.SUCCESS -> ScreenshotUtils.takeScreenshot("passed-" + testResult.getName());
