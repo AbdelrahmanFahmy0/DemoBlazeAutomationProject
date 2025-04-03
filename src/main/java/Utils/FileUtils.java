@@ -48,9 +48,6 @@ public class FileUtils {
             if (file.isDirectory()) {
                 deleteFiles(file);
             } else {
-                if (file.getName().equals("environment.properties")) {
-                    continue;
-                }
                 try {
                     Files.delete(file.toPath());
                 } catch (IOException e) {
