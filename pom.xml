@@ -99,7 +99,7 @@
         <maven.compiler.source>23</maven.compiler.source>
         <maven.compiler.target>23</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <selenuimVersion>4.29.0</selenuimVersion>
+        <selenuimVersion>4.31.0</selenuimVersion>
         <testNGVersion>7.11.0</testNGVersion>
         <commonsVersion>2.18.0</commonsVersion>
         <slf4j2Version>2.24.3</slf4j2Version>
